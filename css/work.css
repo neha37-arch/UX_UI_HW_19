@@ -1,0 +1,168 @@
+:root {
+    --primary: #AF1E2D;
+    --light: #F3F3F3;
+    --grey: #8A8A8B;
+    --dark: #212121;
+  }
+
+html, body {
+    margin: 0; padding: 0;
+  }
+  .hero-bkg-animated {
+    background: gray url(https://subtlepatterns.com/patterns/geometry2.png) repeat 0 0;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 300px;
+    padding-top: 120px;
+    box-sizing: border-box;
+    -webkit-animation: slide 20s linear infinite;
+  }
+  
+  .hero-bkg-animated h1 {
+    font-family: sans-serif;
+  }
+  
+  @-webkit-keyframes slide {
+      from { background-position: 0 0; }
+      to { background-position: -400px 0; }
+  }
+
+.inline-block{
+    display: inline-block;
+    vertical-align: top; 
+}
+nav{
+    width : 73%;
+    padding: 1%;
+    display:inline;
+    float: left ;
+}
+nav ul{
+list-style: none;
+}
+nav li {
+display: inline-block;
+margin: 20px 40px;
+position: relative;
+left: 15%
+}
+
+nav a { color: #444;
+text-decoration: none;
+font-family: sans-serif;
+text-transform: uppercase;
+font-size: 16px;
+text-align: center;
+
+}
+
+nav a:hover {
+    color: black;
+
+}
+section {
+
+margin-left: 22.5%;
+    display: inline-block;
+    vertical-align:top ;
+font-family: sans-serif;
+text-align: center;
+font-style: italic;
+color:#444
+
+}
+
+
+h1{ font-size: 48px;}
+
+h3{ font-size: 20px;
+margin:0;
+position:relative;
+}
+
+p
+{ font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 20px;
+    color:#383838
+}
+
+.rectangleA{
+    width:946px;
+    height:456px;
+    margin-top: 40px;
+    display:grid;
+    grid-template-columns:1fr 1fr 10%;
+    grid-gap:10px;
+    padding:10px;
+background: #F7CEB9;
+
+}
+.rectangleA img {
+    width: 267px;
+height: 407px;
+    position:relative;
+    margin-left: 40px;
+    margin-top: 56px;
+
+}
+
+.rectangleA p{
+
+    margin-top: 150px;
+}
+.rectangle-1 p strong {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size:30px;
+    color:#383838
+}
+
+.rectangleB{
+    width:946px;
+    height:456px;
+    margin-top: 20px;
+    margin: o auto;
+    display:grid;
+    grid-template-columns:1fr 1fr 10%;
+    grid-gap:10px;
+    padding:10px;
+background: #D3F0EE
+}
+.rectangleB img {
+    width: 267px;
+height: 407px;
+    position:relative;
+    margin-left: 40px;
+    margin-top: 56px;
+
+}
+.rectangleB p{
+
+    margin-top: 150px;
+}
+.rectangle-2 p strong {
+    font-family: sans-serif;
+    font-style: italic;
+    font-size:30px;
+    color:#383838
+}
+
+footer ul{ list-style: none;}
+
+footer li{ 
+display: inline-block;
+    vertical-align : top;
+    text-align: centre;
+    margin: 60px 60px;
+    position: relative;
+    left: 30%;
+}
+footer a { color: #444;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;}
